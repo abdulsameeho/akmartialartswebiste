@@ -3594,15 +3594,20 @@ section {
   .banner-section .banner-thumb-area .banner-thumb-element-three {
     position: absolute;
     z-index: -1;
-    top: 6%;
-    left: 5%;
+    top: 4%;
+    left: 3%;
   }
 }
 @media only screen and (max-width: 575px) {
   .banner-section .banner-thumb {
     margin: 85px auto 35px auto;
   }
- 
+  .banner-section .banner-thumb-area .banner-thumb-element-three {
+    position: absolute;
+    z-index: -1;
+    top: 1%;
+    left: 2%;
+  }
 }
 .banner-section .banner-thumb img {
   width: 100%;
