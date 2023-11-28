@@ -3530,13 +3530,24 @@ section {
 }
 @media only screen and (max-width: 767px) {
   .banner-section .banner-thumb-area {
-    width: 60%;
+    width: 80%;
   }
 }
 @media only screen and (max-width: 575px) {
   .banner-section .banner-thumb-area {
-    width: 60%;
+    width: 80%;
+
   }
+  .banner-section .banner-thumb-area {
+    position: relative;
+    right: auto;
+    border-radius: 999px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   
+  }
+  
+  
 }
 .banner-section .banner-thumb-area .banner-thumb-element-one {
   position: absolute;
@@ -3562,8 +3573,8 @@ section {
 .banner-section .banner-thumb-area .banner-thumb-element-three {
   position: absolute;
   z-index: -1;
-  top: 9%;
-  left: 8%;
+  top: 7%;
+  left: 12%;
 }
 .banner-section .banner-thumb {
   width: 90%;
@@ -3580,11 +3591,18 @@ section {
     width: 100%;
     margin: 150px auto 0 auto;
   }
+  .banner-section .banner-thumb-area .banner-thumb-element-three {
+    position: absolute;
+    z-index: -1;
+    top: 6%;
+    left: 5%;
+  }
 }
 @media only screen and (max-width: 575px) {
   .banner-section .banner-thumb {
-    margin: 45px auto 0 auto;
+    margin: 85px auto 35px auto;
   }
+ 
 }
 .banner-section .banner-thumb img {
   width: 100%;
