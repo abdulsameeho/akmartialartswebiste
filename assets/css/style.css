@@ -9381,3 +9381,15 @@ th, td {
 .certi-description {
   margin-top: 15px;
 }
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Place the video behind other content */
+  
+}
+
+
