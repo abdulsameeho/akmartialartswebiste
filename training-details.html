@@ -368,42 +368,40 @@
             </div>
             <div class="col-xl-6 col-lg-6 mb-30" data-aos="fade-left" data-aos-duration="1200">
                 <div class="account-widget-form-area bg_img" data-background="assets/images/bg/bg-16.png">
-                    <form class="account-widget-form">
+                    <form class="account-widget-form" action="process_registration.php" method="post">
                         <div class="row justify-content-center mb-20-none">
                             <div class="col-xl-12 form-group">
-                                <input type="text" class="form--control" placeholder="Your Name*">
+                                <input type="text" name="name" class="form--control" placeholder="Your Name*">
                             </div>
                             <div class="col-xl-12 form-group">
-                                <input type="email" class="form--control" placeholder="Your Email*">
+                                <input type="email" name="email" class="form--control" placeholder="Your Email*">
                             </div>
                             <div class="col-xl-12 form-group">
-                                <input type="number" class="form--control" placeholder="Your Phone*">
+                                <input type="tel" name="phone" class="form--control" placeholder="Your Phone*">
                             </div>
                             <div class="col-xl-12 form-group">
                                 <div class="account-widget-select">
-                                    <select class="form--control">
-                                        <option value="1">KARATE</option>
-                                        <option value="2">SELF-DEFENCE</option>
-                                        <option value="3">GYMNASTICS</option>
-                                        <option value="4">NANCHAKU</option>
-                                        
-                                        
+                                    <select name="course" class="form--control">
+                                        <option value="KARATE">KARATE</option>
+                                        <option value="SELF-DEFENCE">SELF-DEFENCE</option>
+                                        <option value="GYMNASTICS">GYMNASTICS</option>
+                                        <option value="NANCHAKU">NANCHAKU</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-xl-12 form-group">
-                                <input type="text" class="form--control" id="timePicker" placeholder="Select Time">
-                            </div>
-                            
-                            <div class="col-xl-12 form-group">
-                                <textarea class="form--control" placeholder="Your Message*"></textarea>
+                                <input type="text" name="time" class="form--control" id="timePicker" placeholder="Select Time">
                             </div>
                             <div class="col-xl-12 form-group">
-                                <button type="submit" class="btn--base">Register Now <i class="fas fa-arrow-right ml-2"></i></button>
+                                <textarea name="message" class="form--control" placeholder="Your Message*"></textarea>
+                            </div>
+                            <div class="col-xl-12 form-group">
+                                <button type="submit" name="submit" class="btn--base">Register Now <i class="fas fa-arrow-right ml-2"></i></button>
                             </div>
                         </div>
                     </form>
                 </div>
+                
             </div>
         </div>
     </div>
