@@ -607,3 +607,19 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".loader-container").style.display = "none";
   }, 1000); // Adjust the delay as needed
 });
+
+  // JavaScript to handle the click event on the .video-icon
+  document.querySelector('.video-icon').addEventListener('click', function(event) {
+    event.preventDefault(); 
+
+    // Redirect to the YouTube video URL
+    window.location.href = 'https://www.youtube.com/@ashish46392';
+});
+
+
+ $('.video-icon').click(function(event) {
+  event.preventDefault(); 
+
+  // Redirect to the YouTube video URL
+  window.location.href = 'https://karnataka.publicvibe.com/video/c-v-raman-nagar/raajyamattadha-karaate-pandyaavali/1670217836561176486';
+});

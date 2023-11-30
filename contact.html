@@ -228,19 +228,19 @@
             </div>
             <div class="col-xl-6 col-lg-6 mb-60">
                 <div class="account-widget-form-area">
-                    <form class="account-widget-form" onsubmit="sendEmail(); reset(); return false;">
+                    <form class="account-widget-form">
                         <div class="row justify-content-center mb-25-none">
                             <div class="col-xl-12 form-group">
-                                <input type="text" class="form--control" placeholder="Your Name*">
+                                <input type="text" id="name" class="form--control" placeholder="Your Name*">
                             </div>
                             <div class="col-xl-12 form-group">
-                                <input type="email" class="form--control" placeholder="Your Email*">
+                                <input type="email" id="emailId" class="form--control" placeholder="Your Email*">
                             </div>
                             <div class="col-xl-12 form-group">
-                                <input type="text" class="form--control" placeholder="Your Phone*">
+                                <input type="text" id="phone" class="form--control" placeholder="Your Phone*">
                             </div>
                             <div class="col-xl-12 form-group">
-                                <textarea class="form--control" placeholder="Your Message*"></textarea>
+                                <textarea class="form--control" id="message" placeholder="Your Message*"></textarea>
                             </div>
                             <div class="col-xl-12 form-group">
                                 <button type="submit" class="btn--base">Send Now <i class="fas fa-arrow-right ml-2"></i></button>
@@ -276,38 +276,38 @@
                         </tr>
                         <tr>
                             <td>Monday</td>
-                            <td>5:00 AM</td>
                             <td>6:00 AM</td>
+                            <td>6:00 PM</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
-                            <td>4:30 AM</td>
-                            <td>7:30 AM</td>
+                            <td>6:00 AM</td>
+                            <td>7:30 PM</td>
                         </tr>
                         <tr>
                             <td>Wednesday</td>
-                            <td>6:30 AM</td>
-                            <td>9:30 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:45 PM</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
-                            <td>4:30 AM</td>
-                            <td>7:30 AM</td>
+                            <td>6:00 AM</td>
+                            <td>7:30 PM</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
-                            <td>5:00 AM</td>
-                            <td>7:30 AM</td>
+                            <td>6:00 AM</td>
+                            <td>7:45 PM</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
                             <td>10:00 AM</td>
-                            <td>7:30 AM</td>
+                            <td>7:00 PM</td>
                         </tr>
                         <tr>
                             <td>Sunday</td>
                             <td>8:00 AM</td>
-                            <td>11:30 AM</td>
+                            <td>11:00 AM</td>
                         </tr>
                     </table>
                 </div>
@@ -323,38 +323,38 @@
                         </tr>
                         <tr>
                             <td>Monday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>6:00 PM</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:30 PM</td>
                         </tr>
                         <tr>
                             <td>Wednesday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:45 PM</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:30 PM</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:45 PM</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>10:00 AM</td>
+                            <td>7:00 PM</td>
                         </tr>
                         <tr>
                             <td>Sunday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>8:00 AM</td>
+                            <td>11:00 AM</td>
                         </tr>
                     </table>
                 </div>
@@ -365,43 +365,43 @@
                     <table>
                         <tr>
                             <th>Day</th>
-                            <th>Opening </th>
-                            <th>Closing </th>
+                            <th>Opening</th>
+                            <th>Closing</th>
                         </tr>
                         <tr>
                             <td>Monday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>6:00 PM</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:30 PM</td>
                         </tr>
                         <tr>
                             <td>Wednesday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:45 PM</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:30 PM</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>6:00 AM</td>
+                            <td>7:45 PM</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>10:00 AM</td>
+                            <td>7:00 PM</td>
                         </tr>
                         <tr>
                             <td>Sunday</td>
-                            <td>9:00 AM</td>
-                            <td>5:00 PM</td>
+                            <td>8:00 AM</td>
+                            <td>11:00 AM</td>
                         </tr>
                     </table>
                 </div>
@@ -532,7 +532,23 @@
 <!-- main -->
 <script src="assets/js/main.js"></script>
 
+<script>
+    function sendEmail() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('emailId').value;
+        const phone = document.getElementById('phone').value;
+        const message = document.getElementById('message').value;
 
+        const subject = 'Contact Form Submission from website';
+        const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0APhone: ${phone}%0D%0AMessage: ${message}`;
+
+        // Create a mailto link with pre-filled details
+        const mailtoLink = `mailto:abdulsameehpm2525@gmail.com?subject=${subject}&body=${body}`;
+
+        // Open the user's email client
+        window.location.href = mailtoLink;
+    }
+</script>
 
 
 
