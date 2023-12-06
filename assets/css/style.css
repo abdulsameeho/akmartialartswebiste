@@ -1444,6 +1444,7 @@ h4 a:hover {
   font-style: italic;
   font-weight: 700;
   margin-top: -17px;
+  font-size: 40px;
 }
 @media only screen and (max-width: 991px) {
   .section-header .section-title {
@@ -3501,6 +3502,7 @@ section {
 @media only screen and (max-width: 1366px) {
   .banner-section .banner-thumb-area {
     width: 45%;
+    
   }
 }
 @media only screen and (max-width: 1340px) {
@@ -3526,6 +3528,7 @@ section {
     border-radius: 999px;
     margin: 0 auto;
     margin-bottom: 30px;
+   
   }
 }
 @media only screen and (max-width: 767px) {
@@ -3655,11 +3658,12 @@ section {
 }
 .banner-section .banner-content .sub-title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   color: #e80000;
   font-family: "Kanit", sans-serif;
   font-style: italic;
   margin-bottom: 5px;
+  margin-top: 160px;
 }
 @media only screen and (max-width: 991px) {
   .banner-section .banner-content .sub-title {
@@ -3835,6 +3839,7 @@ section {
   color: white;
 }
 .banner-section-two .banner-content .inner-title {
+
   color: white;
 }
 .banner-section-two .banner-content p {
@@ -5360,7 +5365,7 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
   position: absolute;
   content: '';
   top: 5px;
-  right: -7px;
+  right: -20px;
   width: 20px;
   height: 20px;
   background-color: #e80000;

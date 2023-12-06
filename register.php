@@ -9,7 +9,7 @@ if(isset($_POST['submit'])) {
     $message = $_POST['message'];
 
     // Construct email message
-    $to = 'ashish619@gmail.com'; 
+    $to = 'ashish619k@gmail.com'; 
     $subject = 'Registration Details from website';
     $email_body = "Name: $name\nEmail: $email\nPhone: $phone\nCourse: $course\nTime: $time\nMessage: $message";
 
