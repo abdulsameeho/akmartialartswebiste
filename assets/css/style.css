@@ -5493,7 +5493,6 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
 }
 .about-section--style .about-thumb .about-overlay-content {
   position: absolute;
-  top: 50%;
   left: -10%;
   background-color: #232323;
   padding: 35px;
