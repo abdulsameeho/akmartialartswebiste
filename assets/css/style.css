@@ -9390,7 +9390,8 @@ th, td {
 
 .free-class {
   margin-top: 25px !important;
-  color: #e80000;
+  font-style: italic;
+  font-size: 17px;
 }
 
 
@@ -9406,4 +9407,18 @@ th, td {
   min-height: 100%;
   z-index: -1; /* Place the video behind other content */
   
+}
+.karate-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.karate-sub-txt {
+  margin-top: 20px;
+
+}
+.navbar a.active {
+  text-decoration: underline #e80000; 
+  text-decoration-thickness: 3px;
 }
