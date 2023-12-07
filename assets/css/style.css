@@ -4721,7 +4721,7 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
   transform: none !important;
 }
 .trainer-section-two .trainer-item:hover .trainer-thumb img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .trainer-section-two .trainer-item:hover .trainer-thumb::after {
   opacity: 0.7;
@@ -5140,7 +5140,7 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
 }
 
 .client-thumb {
-  height: 125px;
+  height: 75px;
 }
 .client-thumb img {
   width: 100%;
@@ -9405,5 +9405,3 @@ th, td {
   z-index: -1; /* Place the video behind other content */
   
 }
-
-
