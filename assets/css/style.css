@@ -5665,6 +5665,7 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
 */
 .training-section {
   position: relative;
+  margin-bottom: -120px;
 }
 .training-section .training-element-one {
   position: absolute;
