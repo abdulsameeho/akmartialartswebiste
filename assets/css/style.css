@@ -5141,6 +5141,7 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
 
 .client-thumb {
   height: 75px;
+  border-radius: 50%;
 }
 .client-thumb img {
   width: 100%;
