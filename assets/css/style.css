@@ -3597,8 +3597,17 @@ section {
   .banner-section .banner-thumb-area .banner-thumb-element-three {
     position: absolute;
     z-index: -1;
-    top: 4%;
+    top: 1%;
     left: 3%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .banner-section .banner-thumb-area .banner-thumb-element-three {
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    left: 2%;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -3608,7 +3617,7 @@ section {
   .banner-section .banner-thumb-area .banner-thumb-element-three {
     position: absolute;
     z-index: -1;
-    top: 1%;
+    top: -3%;
     left: 2%;
   }
 }
