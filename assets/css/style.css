@@ -3576,8 +3576,8 @@ section {
 .banner-section .banner-thumb-area .banner-thumb-element-three {
   position: absolute;
   z-index: -1;
-  top: 7%;
-  left: 12%;
+  top: -4%;
+  left: 4%;
 }
 .banner-section .banner-thumb {
   width: 90%;
