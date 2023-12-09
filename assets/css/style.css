@@ -5148,6 +5148,7 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 50%;
 }
 
 .client-footer {
