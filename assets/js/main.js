@@ -623,3 +623,4 @@ document.addEventListener("DOMContentLoaded", function () {
   // Redirect to the YouTube video URL
   window.location.href = 'https://karnataka.publicvibe.com/video/c-v-raman-nagar/raajyamattadha-karaate-pandyaavali/1670217836561176486';
 });
+
