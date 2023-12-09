@@ -29,5 +29,4 @@ if(isset($_POST['submit'])) {
         echo '<script>alert("Oops! Something went wrong. Please try again later.");</script>';
     }
 }
-}
 ?>
