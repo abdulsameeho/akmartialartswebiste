@@ -17,8 +17,17 @@ if(isset($_POST['submit'])) {
     $headers = "From: $email"; // Set the sender's email as "From" in the email header
     mail($to, $subject, $email_body, $headers);
 
-    // Redirect after sending the email (optional)
-    header('Location: training-details.html'); 
-    exit();
+    // Check if the email was sent successfully
+    if ($sent) {
+        // Alert for successful submission
+        echo '<script>alert("Thank you! Your message has been sent.");</script>';
+        // Redirect after sending the email (optional)
+        header('Location: training-details.html'); 
+        exit();
+    } else {
+        // Alert for failed submission
+        echo '<script>alert("Oops! Something went wrong. Please try again later.");</script>';
+    }
+}
 }
 ?>
