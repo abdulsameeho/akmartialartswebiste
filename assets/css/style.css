@@ -5514,35 +5514,49 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
 }
 @media only screen and (max-width: 991px) {
   .about-section--style .about-thumb .about-overlay-content {
-    top: 70%;
-    left: 50%;
+    top: 2%;
+    left: -30px;
     transform: translateX(-50%);
-    width: 400px;
+    width: 300px;
     text-align: center;
-    animation: none;
+    animation: scroll-down 2s cubic-bezier(0.4, 0, 1, 1) infinite;
   }
 }
 @media only screen and (max-width: 767px) {
   .about-section--style .about-thumb .about-overlay-content {
-    top: 65%;
+    padding: 12px;
+    top: 2%;
+    width: 185px;
+    left: -10px;
+    animation: scroll-down 2s cubic-bezier(0.4, 0, 1, 1) infinite;
   }
 }
 @media only screen and (max-width: 480px) {
   .about-section--style .about-thumb .about-overlay-content {
-    top: 60%;
-    width: 300px;
+    padding: 12px;
+    top: 2%;
+    width: 145px;
+    left: -10px;
   }
 }
 @media only screen and (max-width: 420px) {
   .about-section--style .about-thumb .about-overlay-content {
-    top: 58%;
+    top: 2%;
+    padding: 5px;
+  }
+  .about-section--style .about-thumb .about-overlay-content .title {
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 380px) {
   .about-section--style .about-thumb .about-overlay-content {
-    padding: 25px;
-    width: 250px;
-    top: 55%;
+    padding: 1px;
+    width: 125px;
+    top: 2%;
+    left: -10px;
+    animation: scroll-down 2s cubic-bezier(0.4, 0, 1, 1) infinite;
+
+   
   }
 }
 .about-section--style .about-thumb .about-overlay-content img {
@@ -5558,7 +5572,7 @@ div[class*="col"]:nth-of-type(4n + 4) .trainer-item:hover {
 }
 @media only screen and (max-width: 380px) {
   .about-section--style .about-thumb .about-overlay-content .title {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .about-section--style .section-header {
