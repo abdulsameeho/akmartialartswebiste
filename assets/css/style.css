@@ -3617,7 +3617,7 @@ section {
   .banner-section .banner-thumb-area .banner-thumb-element-three {
     position: absolute;
     z-index: -1;
-    top: -3%;
+    top: -10%;
     left: 2%;
   }
 }
@@ -3664,6 +3664,12 @@ section {
   .banner-section .banner-content {
     text-align: center;
   }
+  .banner-section .banner-thumb-area .banner-thumb-element-three {
+    position: absolute;
+    z-index: -1;
+    top: -15%;
+    left: 2%;
+  }
 }
 .banner-section .banner-content .sub-title {
   font-weight: 700;
@@ -3677,6 +3683,12 @@ section {
 @media only screen and (max-width: 991px) {
   .banner-section .banner-content .sub-title {
     font-size: 16px;
+  }
+  .banner-section .banner-thumb-area .banner-thumb-element-three {
+    position: absolute;
+    z-index: -1;
+    top: -15%;
+    left: 2%;
   }
 }
 .banner-section .banner-content .sub-title span {
@@ -3696,6 +3708,8 @@ section {
   .banner-section .banner-content p {
     display: none;
   }
+
+
 }
 .banner-section .banner-content .inner-title {
   font-size: 45px;
@@ -9407,7 +9421,8 @@ th, td {
   margin-top: 25px !important;
   font-style: italic;
   font-size: 17px;
-  text-transform: capitalize;
+  font-weight: 600;
+  
 }
 
 
@@ -9437,4 +9452,35 @@ th, td {
 .navbar a.active {
   text-decoration: underline #e80000; 
   text-decoration-thickness: 3px;
+}
+
+
+@media (max-width: 767px) {
+ 
+  
+  #video-background {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 1199px) {
+ 
+  
+  #video-background {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  }
 }

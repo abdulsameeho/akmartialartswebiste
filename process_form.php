@@ -13,21 +13,23 @@ if(isset($_POST['submit'])) {
 
     // Send email
     $headers = "From: $email"; // Set the sender's email as "From" in the email header
-    mail($to, $subject, $email_body, $headers);
+    $sent = mail($to, $subject, $email_body, $headers);
 
-   // Check if the email was sent successfully
-   if ($sent) {
-    // Alert for successful submission
-    echo '<script>alert("Thank you! Your message has been sent.");</script>';
-    // Redirect after sending the email (optional)
-    header('Location: training-details.html'); 
-    exit();
-} else {
-    // Alert for failed submission
-    echo '<script>alert("Oops! Something went wrong. Please try again later.");</script>';
-}
+    // Check if the email was sent successfully
+    if ($sent) {
+        // Display success message using JavaScript
+        echo '<script>';
+        echo 'alert("Thank you! Your message has been sent.");';
+        echo 'window.location.href = "training-details.html";'; // Redirect after showing the alert
+        echo '</script>';
+        exit();
+    } else {
+        // Display error message using JavaScript
+        echo '<script>';
+        echo 'alert("Oops! Something went wrong. Please try again later.");';
+        echo 'window.location.href = "training-details.html";'; // Redirect after showing the alert
+        echo '</script>';
+        exit();
+    }
 }
 ?>
-
-
-

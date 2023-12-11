@@ -527,7 +527,7 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
   top: -9999px;
   bottom: -9999px;
   left: 0;
-  background: #333;
+
 }
 @media screen and (max-width: 640px) {
   /* line 1, ../scss/components/modules/_overlay.scss */

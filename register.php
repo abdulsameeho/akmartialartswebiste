@@ -9,20 +9,22 @@ if(isset($_POST['submit'])) {
     $message = $_POST['message'];
 
     // Construct email message
-    $to = 'ashish619k@gmail.com'; 
+    $to = 'ashishk619@gmail.com'; 
     $subject = 'Registration Details from website';
     $email_body = "Name: $name\nEmail: $email\nPhone: $phone\nCourse: $course\nTime: $time\nMessage: $message";
 
-    // Send email
-    $headers = "From: $email"; // Set the sender's email as "From" in the email header
-    mail($to, $subject, $email_body, $headers);
+    // Set the sender's email as "From" in the email header
+    $headers = "From: $email";
+
+    // Send email and check if it was sent successfully
+    $sent = mail($to, $subject, $email_body, $headers);
 
     // Check if the email was sent successfully
     if ($sent) {
-        // Alert for successful submission
+        // Alert for successful submission using JavaScript
         echo '<script>alert("Thank you! Your message has been sent.");</script>';
-        // Redirect after sending the email (optional)
-        header('Location: training-details.html'); 
+        // Redirect after showing the alert (optional delay added for visibility)
+        echo '<script>setTimeout(function(){ window.location.href = "training-details.html"; }, 1000);</script>';
         exit();
     } else {
         // Alert for failed submission
