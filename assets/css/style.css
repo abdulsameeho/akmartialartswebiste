@@ -3472,7 +3472,7 @@ section {
 }
 @media only screen and (max-width: 575px) {
   .banner-section {
-    padding-top: 130px;
+    padding-top: 80px;
     padding-bottom: 95px;
   }
 }
@@ -3546,7 +3546,7 @@ section {
     right: auto;
     border-radius: 999px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: -200px;
    
   }
   
