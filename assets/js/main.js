@@ -624,3 +624,14 @@ document.addEventListener("DOMContentLoaded", function () {
   window.location.href = 'https://karnataka.publicvibe.com/video/c-v-raman-nagar/raajyamattadha-karaate-pandyaavali/1670217836561176486';
 });
 
+function redirectToWhatsApp() {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  var whatsappWebURL = 'https://web.whatsapp.com/send?phone=+919900681865';
+  var whatsappMobileURL = 'whatsapp://send?phone=+919900681865';
+
+  if (isMobile) {
+      window.location.href = whatsappMobileURL;
+  } else {
+      window.open(whatsappWebURL, '_blank');
+  }
+}

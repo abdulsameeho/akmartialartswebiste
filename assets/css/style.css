@@ -8259,7 +8259,6 @@ div[class*="col"]:nth-of-type(4n + 4) .choose-item::after {
 .account-widget-list-icon-area2 {
   display: flex;
   align-items: center;
-  margin-left: -9px;
 }
 
 .acoount-widget-list-icon2 img {
@@ -8290,6 +8289,40 @@ div[class*="col"]:nth-of-type(4n + 4) .choose-item::after {
   color: inherit; /* Inherit text color */
 }
 
+@media only screen and (max-width: 575px){
+ 
+  
+  .acoount-widget-list-icon2 img {
+    width: 55px;
+    height: 40px;
+    margin-left: -6px;
+    margin-top: 5px;
+  }
+  .my-btn {
+    /* Style your button */
+    position: relative;
+    margin-left: 10px; /* Adjust the margin between the image and button */
+    background: #e80000;
+    border: 2px solid #e80000;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    margin-top: 5px;
+    /* Additional styles as needed */
+  }
+  
+  .my-btn a {
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit text color */
+  }
+
+}
 
 .account-widget-section-two .account-widget-form-area {
   padding: 0;
