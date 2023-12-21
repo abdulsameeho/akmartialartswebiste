@@ -8262,8 +8262,9 @@ div[class*="col"]:nth-of-type(4n + 4) .choose-item::after {
 }
 
 .acoount-widget-list-icon2 img {
-  width: 55px;
+  width: 60px;
   height: 40px;
+  margin-left: -9px;
 }
 
 .my-btn {
@@ -8289,40 +8290,6 @@ div[class*="col"]:nth-of-type(4n + 4) .choose-item::after {
   color: inherit; /* Inherit text color */
 }
 
-@media only screen and (max-width: 575px){
- 
-  
-  .acoount-widget-list-icon2 img {
-    width: 55px;
-    height: 40px;
-    margin-left: -6px;
-    margin-top: 5px;
-  }
-  .my-btn {
-    /* Style your button */
-    position: relative;
-    margin-left: 10px; /* Adjust the margin between the image and button */
-    background: #e80000;
-    border: 2px solid #e80000;
-    color: white;
-    padding: 12px 30px;
-    border-radius: 999px;
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    margin-top: 5px;
-    /* Additional styles as needed */
-  }
-  
-  .my-btn a {
-    text-decoration: none; /* Remove default link underline */
-    color: inherit; /* Inherit text color */
-  }
-
-}
 
 .account-widget-section-two .account-widget-form-area {
   padding: 0;
@@ -9516,6 +9483,7 @@ th, td {
 
 .karate-sub-txt {
   margin-top: 20px;
+  text-align: justify;
 
 }
 .navbar a.active {
@@ -9551,5 +9519,50 @@ th, td {
     min-height: 100%;
     width: auto;
     height: auto;
+  }
+}
+.overview-item2 {
+  background-color: #F8F9FF;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px 10px;
+  transition: all 0.5s;
+}
+
+.overview-item2 video {
+  width: 100%; /* Set video width to 100% */
+  height: 100%; /* Set video height to 100% */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.about-user-content2 {
+  display: flex;
+  flex-direction: column; /* Initially stack elements vertically */
+}
+
+.about-user-thumb2 {
+  margin-bottom: 20px; /* Add some space between image and text */
+}
+
+.about-user-thumb2 img {
+  max-width: 100%; /* Ensure image doesn't overflow its container */
+}
+
+@media screen and (min-width: 1024px) {
+  /* For screens wider than 768px (adjust as needed) */
+  .about-user-content2 {
+      flex-direction: row; /* Arrange elements horizontally */
+      align-items: flex-start; /* Align items to the top */
+  }
+
+  .about-user-thumb2 {
+      margin-bottom: 0; /* Reset margin */
+      margin-right: 20px; /* Adjust spacing between image and text */
+      flex: 0 0 auto; /* To prevent image from flex resizing */
+  }
+
+  .about-user-text {
+      flex: 1; /* Allow text to take remaining space */
   }
 }
