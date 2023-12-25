@@ -8262,9 +8262,9 @@ div[class*="col"]:nth-of-type(4n + 4) .choose-item::after {
 }
 
 .acoount-widget-list-icon2 img {
-  width: 60px;
+  width: 65px;
   height: 40px;
-  margin-left: -9px;
+  margin-left: -10px;
 }
 
 .my-btn {
